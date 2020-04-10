@@ -1,6 +1,36 @@
 body {
-    background: black;
+    background: #3a3633;
     color: white;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    display: block;
+    text-decoration: none
+    display: flex;
 }
+
+.nav > a {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+padding
+background-color
+align-items
+justify-content
+color
+margin
+font-family
+text-decoration
+transition
+display
+opacity
+:hover
