@@ -6,22 +6,24 @@ body {
     display: block;
     text-decoration: none
     display: flex;
+    
 }
 
-.nav > a {
+.container {
     display: flex;
     flex-direction: row;
-
 }
 
 .nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1;
+    justify-content: center;
+    padding: 50px;
+    
 }
+.nav > a {
+    
 
+}
 padding
 background-color
 align-items
