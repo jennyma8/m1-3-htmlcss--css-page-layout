@@ -1,6 +1,4 @@
 body {
-    background: #3a3633;
-    color: white;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     display: block;
@@ -12,27 +10,39 @@ body {
 .container {
     display: flex;
     flex-direction: row;
+    background: #3a3633;
+    color: white
 }
 
 .nav {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    align-items: center;
+    
     
 }
-.nav > a {
-    
 
+a {
+    color: inherit;
+    text-decoration: none;
 }
-padding
-background-color
-align-items
-justify-content
-color
-margin
-font-family
-text-decoration
-transition
-display
-opacity
-:hover
+
+.middle {
+    padding: 10px 50px 10px 50px;
+}
+
+.apple {
+    padding: 10px 50px 10px 200px;
+}
+
+.TV {
+    padding: 10px 200px 10px 50px;
+}
+
+a:hover {
+    opacity: 50%;
+    transiton: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+
