@@ -2,12 +2,50 @@ body {
     margin: 0;
 }
 
+.container {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
 .nav {
     background-color: #383737;
+    text-decoration: none;
+    border: none;
+    outline: none;
 }
 
 .nav-dropdown {
     color: #fff;
     text-decoration: none;
-    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: black;
+
+}
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background: #0084ff;
+    z-index: 1;
+}
+.dropdown-content:hover {
+    background: blue;
+    display: block;
+
+}
+.dropdown-content a {
+    color: #0084ff;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: blue;
+    text-decoration: none;
+    display: block;
 }
