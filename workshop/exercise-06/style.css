@@ -1,53 +1,97 @@
 body {
     margin: 0;
+    left: 0;
 }
 
-.container {
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
+li {
+    display: block;
+    transition-duration: 0.5s;
+    color: white;
+    left: 0;
+    float: left;
 }
-.nav {
-    background-color: #383737;
+
+li:hover {
+    cursor: pointer;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: none;
+    color: white;
     text-decoration: none;
-    border: none;
-    outline: none;
+    left: 0;
+
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+    opacity: 100%;
+
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+    color: white;
+    background-color: #00a2ff;
+    text-decoration: none;
+    left: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    
+
+
+}
+
+nav {
+    font-family: monospace;
+    left: 0;
+    
+
+}
+
+ul {
+    background-color: black;
+    list-style: none;
+    margin: 0;
+    height: 50px;
+    left: 0;
+    padding-left: 0px;
+}
+
+.nav {
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+    height: 50px;
+    left: 0;
 }
 
 .nav-dropdown {
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    background-color: black;
-
-}
-
-.dropdown-content {
-    display: none;
-    flex-direction: column;
-    overflow: hidden;
-    position: absolute;
-    text-decoration: none;
     color: white;
-    background: #0084ff;
-    z-index: 1;
+    left: 0;
+    
+    
 }
-.dropdown-content:hover {
+
+nav ul li ul li:hover {
     background: blue;
-    display: block;
-
-}
-.dropdown-content a {
-    color: #0084ff;
-    text-decoration: none;
-    display: block;
+    cursor: pointer;
 }
 
-.dropdown-content a:hover {
-    color: blue;
-    text-decoration: none;
-    display: block;
+nav ul li ul li {
+    padding: 30px;
 }
 
-https://css-tricks.com/solved-with-css-dropdown-menus/
+
+
