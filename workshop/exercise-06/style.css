@@ -1,97 +1,41 @@
 body {
     margin: 0;
-    left: 0;
-}
-
-li {
-    display: block;
-    transition-duration: 0.5s;
-    color: white;
-    left: 0;
-    float: left;
-}
-
-li:hover {
-    cursor: pointer;
-}
-
-ul li ul {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s ease;
-    display: none;
-    color: white;
-    text-decoration: none;
-    left: 0;
-
-}
-
-ul li:hover > ul,
-ul li ul:hover {
-    visibility: visible;
-    display: block;
-    opacity: 100%;
-
-}
-
-ul li ul li {
-    clear: both;
-    width: 100%;
-    color: white;
-    background-color: #00a2ff;
-    text-decoration: none;
-    left: 0;
-
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    padding: 30px;
-    
-
-
-}
-
-nav {
-    font-family: monospace;
-    left: 0;
-    
-
-}
-
-ul {
-    background-color: black;
-    list-style: none;
-    margin: 0;
-    height: 50px;
-    left: 0;
-    padding-left: 0px;
 }
 
 .nav {
-    font-size: 30px;
-    color: white;
-    padding-top: 10px;
-    height: 50px;
-    left: 0;
+    background-color: #383737;
 }
 
 .nav-dropdown {
-    color: white;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.nav-dropdown:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
     left: 0;
-    
-    
+    background-color: #03a9f4;
 }
 
-nav ul li ul li:hover {
-    background: blue;
-    cursor: pointer;
+.dropdown-menu {
+    display: none;
 }
 
-nav ul li ul li {
-    padding: 30px;
+.menu-list {
+    margin: 0;
+    padding: 0;
 }
 
+.menu-list > li {
+    list-style-type: none;
+    padding: 20px;
+}
 
-
+.menu-list > li:hover {
+    background-color: dodgerblue;
+}
