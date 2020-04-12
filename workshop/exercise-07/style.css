@@ -25,16 +25,23 @@ li {
   padding: 10px 40px 0px 40px;
 }
 
-.mobile-nav {
-  display: none;
-}
 
 nav:last-of-type {
-  right: 0;
+  margin: 10px;
 }
 
-@media
+@media (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+    margin: 
+  }
 
-800px 
+}
+
+@media (max-width: 800px) {
+  .desktop-nav {
+    display: none;
+  }
+}
 
 
