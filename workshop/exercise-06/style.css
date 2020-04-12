@@ -24,11 +24,13 @@ body {
 
 .dropdown-menu {
     display: none;
+   
 }
 
 .menu-list {
     margin: 0;
     padding: 0;
+    
 }
 
 .menu-list > li {
