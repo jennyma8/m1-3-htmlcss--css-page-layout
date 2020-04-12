@@ -4,46 +4,76 @@ body {
 }
 
 .header {
-
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px 2px #ddd;
 }
 
 .registration-form {
-
+    border: solid lightgrey;
+    border-radius: 10px;
+    margin: 20px 70px;
+    padding: 20px;
 }
 
 .text-field {
-
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid blue;
+    margin: 10px auto;
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
 .radio-label,
 .checkbox-label {
+    text-align: left;
+    margin: 10px;
+    margin-left: 0;
 
 }
 
 label {
-
+    display: block;
+    text-align: center;
 }
 
 .section {
-
+    margin-top: 10px;
+    border-top: 1px solid lightgrey;
 }
 
 .section > label {
-
+    text-align: left;
 }
 
 select {
-
+    font-size: 1rem;
+    margin-left: 10px;
 }
 
 textarea {
+    display: block;
+    width: 100%;
+    background-color: lightgrey;
+    height: 50px;
 
 }
 
 .form-button {
-
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #0096fb;
 }
 
 .form-button:hover {
-    
+    background-color: blue;
+    color: white;
 }
