@@ -47,6 +47,25 @@ body {
   transform: scale(1.2)
 }
 
+@keyframes bounce {
+  from {
+      transform: scale(1) rotate(0deg);
+  }
+
+  80% {
+      transform: scale(1.2) rotate(290deg);
+  }
+
+
+  to {
+      transform: scale(1) rotate(360deg);
+  }
+}
+
+.cool:hover {
+  animation: bounce 1s ease-in-out;
+}
+
 
 
 
