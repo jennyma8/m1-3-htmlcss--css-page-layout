@@ -9,8 +9,43 @@ body {
   justify-content: center;
 }
 
+
 .fast {
+  animation-name: slidein;
+  animation-duration: 2s;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+    opacity: 1;
+  }
+  }
+
+
+
 .cool {
+  background-color: #008cff;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 10px #000;
+  border: #008cff;
+  
 }
+
+.cool:hover {
+  transform: scale(1.2)
+}
+
+
+
